@@ -8,5 +8,4 @@ const filmSchema = new mongoose.Schema({
    rating: Number,
 });
 
-// Tredje parameter = exakt collection-namn i Atlas
 export default mongoose.model("Film", filmSchema, "filmer_collection");
