@@ -4,7 +4,7 @@ const filmSchema = new mongoose.Schema({
    titel: String,
    regissor: String,
    ar: Number,
-   skadespealre: String,
+   skadespelare: String,
    rating: Number,
 });
 
